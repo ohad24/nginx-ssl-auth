@@ -3,6 +3,6 @@ services:
     web-auth:
         image: "nginx:latest"
         ports:
-            - "8090:80"
+            - "80:80"
         volumes: 
             - ./.well-known/:/usr/share/nginx/html/.well-known/
